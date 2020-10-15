@@ -14,8 +14,10 @@ ln -si ~/dotfiles/.skhdrc ~/.skhdrc
 ln -si ~/dotfiles/.yabairc ~/.yabairc 
 
 # tmux
-
 ln -si ~/dotfiles/.tmux.conf ~/.tmux.conf
+
+# alacritty
+ln -si ~/dotfiles/.alacritty.yml ~/.alacritty.yml
 
 # fish
 if test -d ~/.config/fish
