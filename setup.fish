@@ -13,11 +13,15 @@ ln -si ~/dotfiles/.skhdrc ~/.skhdrc
 # yabai
 ln -si ~/dotfiles/.yabairc ~/.yabairc 
 
+# tmux
+
+ln -si ~/dotfiles/.tmux.conf ~/.tmux.conf
+
 # fish
 if test -d ~/.config/fish
-	ln -sin ~/dotfiles/fish/config.fish ~/.config/fish/config.fish 
-	ln -sin ~/dotfiles/fish/fishd.80e650104292 ~/.config/fish/fishd.80e650104292 
-	ln -sin ~/dotfiles/fish/fish_variables ~/.config/fish/fish_variables 
+	ln -si ~/dotfiles/fish/config.fish ~/.config/fish/config.fish 
+	ln -si ~/dotfiles/fish/fishd.80e650104292 ~/.config/fish/fishd.80e650104292 
+	ln -si ~/dotfiles/fish/fish_variables ~/.config/fish/fish_variables 
 	ln -sin ~/dotfiles/fish/functions/ ~/.config/fish/functions
 	ln -sin ~/dotfiles/fish/conf.d/ ~/.config/fish/conf.d
 else
