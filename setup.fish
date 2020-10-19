@@ -19,6 +19,10 @@ ln -si ~/dotfiles/.tmux.conf ~/.tmux.conf
 # alacritty
 ln -si ~/dotfiles/.alacritty.yml ~/.alacritty.yml
 
+# git
+ln -si ~/dotfiles/.gitconfig ~/.gitconfig
+ln -si ~/dotfiles/.gitignore_global ~/.gitignore_global 
+
 # fish
 if test -d ~/.config/fish
 	ln -si ~/dotfiles/fish/config.fish ~/.config/fish/config.fish 
