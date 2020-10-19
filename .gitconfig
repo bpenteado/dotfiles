@@ -1,0 +1,7 @@
+[user]
+	name = Bernardo Penteado
+	email = bernardopbf3@gmail.com
+[core]
+	excludesfile = /Users/bernardopenteado/.gitignore_global
+[alias]
+	graph = log --all --graph --decorate --oneline
