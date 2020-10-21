@@ -32,7 +32,7 @@ set relativenumber
 set laststatus=2
 
 " Set tab indentation width
-set tabstop=4
+set tabstop=4 expandtab
 set shiftwidth=4
 
 " The backspace key has slightly unintuitive behavior by default. For example,
@@ -86,3 +86,6 @@ inoremap <Down>  <ESC>:echoe "Use j"<CR>
 " Set CtrlP configurations
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
+
+" ALE static analysis (disabled by default)
+let g:ale_enabled = 0
